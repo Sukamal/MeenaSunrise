@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/profile"
+            android:title="Profile" />
+
+    </group>
+
+    <item android:title="COMMUNITY">
+        <menu>
+            <item
+                android:id="@+id/nav_directory"
+                android:icon="@drawable/contact"
+                android:title="Directory" />
+            <item
+                android:id="@+id/nav_notice"
+                android:icon="@drawable/notice"
+                android:title="Notice Board"/>
+
+            <item
+                android:id="@+id/nav_service"
+                android:icon="@drawable/service"
+                android:title="Services"/>
+
+        </menu>
+    </item>
+
+    <item android:title="MY UNIT">
+        <menu>
+            <item
+                android:id="@+id/nav_complaint"
+                android:icon="@drawable/complaint"
+                android:title="My Complaints" />
+            <item
+                android:id="@+id/nav_financial"
+                android:icon="@drawable/finance"
+                android:title="My Financial" />
+            <item
+                android:id="@+id/nav_visitor"
+                android:icon="@drawable/visitor"
+                android:title="My Visitors"/>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/nav_logout"
+        android:icon="@drawable/exit"
+        android:title="Log Out"/>
+</menu>
