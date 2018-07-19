@@ -76,15 +76,15 @@ public class SplashActivity extends BaseActivity implements SplashContract.view 
 
     @Override
     public void openLoginScreen() {
-        Intent intent = new Intent(SplashActivity.this, ActivityOne.class);
-//        Intent intent = new Intent(SplashActivity.this, LoginActivity.class);
+//        Intent intent = new Intent(SplashActivity.this, ActivityOne.class);
+        Intent intent = new Intent(SplashActivity.this, LoginActivity.class);
         startActivity(intent);
     }
 
     @Override
     public void openHomeScreen() {
-        Intent intent = new Intent(SplashActivity.this, ActivityOne.class);
-//        Intent intent = new Intent(SplashActivity.this, HomeActivity.class);
+//        Intent intent = new Intent(SplashActivity.this, ActivityOne.class);
+        Intent intent = new Intent(SplashActivity.this, HomeActivity.class);
         startActivity(intent);
     }
 

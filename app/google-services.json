@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "491694548684",
+    "firebase_url": "https://meenasunrise-6e2d0.firebaseio.com",
+    "project_id": "meenasunrise-6e2d0",
+    "storage_bucket": "meenasunrise-6e2d0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:491694548684:android:223f9dd1c5d1dad3",
+        "android_client_info": {
+          "package_name": "suku.com.meenasunrise"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "491694548684-2oe3bb7bnq6prqk6kivmf7viqja4dva9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDu32MCDyTCfZfX-Z88cAB9Sf5KQl9DTjc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
